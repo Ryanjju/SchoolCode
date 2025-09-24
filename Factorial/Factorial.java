@@ -83,6 +83,9 @@ class Factorial {
             default:
                 break;
         }
+
+        // close Scaner 
+        reader.close();
     }
 
     /**
