@@ -211,7 +211,6 @@ class Factorial {
      * </p>
      *
      * @param n the non-negative integer whose factorial is to be computed
-     * @throws IllegalArgumentException if {@code n} is negative
      */
     private static void factorialByPrimeFactorization(int n) {
         int[] primes = sieveOfEratosthenes(n);
